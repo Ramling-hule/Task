@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Click Example</title>
+    <style>
+        .clickable-div {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="div1" class="clickable-div">Div 1</div>
+    <div id="div2" class="clickable-div">Div 2</div>
+    <div id="div3" class="clickable-div">Div 3</div>
+
+    <script>
+        // Function to redirect to a specific URL
+        function goToUrl(url) {
+            window.location.href = url;
+        }
+
+        // Add click event listeners to the divs
+        document.getElementById('div1').addEventListener('click', function() {
+            goToUrl('https://www.example1.com');
+        });
+
+        document.getElementById('div2').addEventListener('click', function() {
+            goToUrl('https://www.example2.com');
+        });
+
+        document.getElementById('div3').addEventListener('click', function() {
+            goToUrl('https://www.example3.com');
+        });
+    </script>
+
+</body>
+</html>
