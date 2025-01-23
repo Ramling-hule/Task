@@ -1,9 +1,18 @@
 const bottomright = document.body.querySelector('#lastdiv')
+const eles = document.body.querySelectorAll('.smalldiv')
+
+
 bottomright.addEventListener('click', () => {
-    document.body.querySelector("#lastdiv").style.backgroundColor = "red"
+    eles.forEach((e) => {
+        // if(e.style.backgroundColor == "blue") {
+        //     e.style.backgroundColor = "red"
+        // }
+        // else {
+            e.style.backgroundColor = "blue"
+        
+    });
 })
 
-const eles = document.body.querySelectorAll('.smalldiv')
 
 eles.forEach((e) => {
     e.addEventListener('click', () => {
