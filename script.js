@@ -4,10 +4,6 @@ const eles = document.body.querySelectorAll('.smalldiv')
 
 bottomright.addEventListener('click', () => {
     eles.forEach((e) => {
-        // if(e.style.backgroundColor == "blue") {
-        //     e.style.backgroundColor = "red"
-        // }
-        // else {
             e.style.backgroundColor = "blue"
         
     });
