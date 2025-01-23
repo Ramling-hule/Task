@@ -2,12 +2,12 @@ const bottomright = document.body.querySelector('#lastdiv')
 const eles = document.body.querySelectorAll('.smalldiv')
 
 
-// bottomright.addEventListener('click', () => {
-//     eles.forEach((e) => {
-//             e.style.backgroundColor = "blue"
+bottomright.addEventListener('click', () => {
+    eles.forEach((e) => {
+            e.style.backgroundColor = "blue"
         
-//     });
-// })
+    });
+})
 
 
 eles.forEach((e) => {
