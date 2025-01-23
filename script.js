@@ -32,7 +32,7 @@ linkedin.addEventListener('click', () => {
 
 const grid = document.getElementById("grid");
 grid.addEventListener('click', () => {
-    goToUrl('http://127.0.0.1:5500/index.html');
+    goToUrl('https://ramling-hule.github.io/Task/');
 });
 
 const home = document.getElementById("home");
