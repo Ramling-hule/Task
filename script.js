@@ -1,15 +1,21 @@
 const bottomright = document.body.querySelector('#lastdiv')
+const eles = document.body.querySelectorAll('.smalldiv')
+
+
 bottomright.addEventListener('click', () => {
-    document.body.querySelector("#lastdiv").style.backgroundColor = "red"
+    eles.forEach((e) => {
+            e.style.backgroundColor = "blue"
+        
+    });
 })
 
-const eles = document.body.querySelectorAll('.smalldiv')
 
 eles.forEach((e) => {
     e.addEventListener('click', () => {
        e.style.backgroundColor = "red"
     })
 });
+
 
 const homes = document.querySelector('#div3')  
 
